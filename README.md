@@ -1,5 +1,9 @@
 # LoRaPHY
 
+This is a fork and a extension of the original **LoRaPHY** of Xu et al. which we extended to also demodulate Spreading factor (SF) 5 and 6.
+Our work is published by the following paper:
+> Sascha Rösler, Anatolij Zubow, Falko Dressler. Open-Source LoRa PHY for Medium-Range IoT: Reverse-Engineering SF 5 and SF 6.
+
 **LoRaPHY** is a complete MATLAB implementation of [LoRa](https://en.wikipedia.org/wiki/LoRa) physical layer, including baseband modulation, baseband demodulation, encoding and decoding.
 **LoRaPHY** is organized as a single file `LoRaPHY.m` for ease of use (copy it and run everywhere).
 
@@ -22,7 +26,7 @@ MATLAB >= R2019b
 
 - Extremely low SNR demodulation (**-20 dB**)
 - Clock drift correction
-- All spreading factors (SF = 7,8,9,10,11,12)
+- All spreading factors (SF = 5,6,7,8,9,10,11,12)
 - All code rates (CR = 4/5,4/6,4/7,4/8)
 - Explicit/Implicit PHY header mode
 - PHY header/payload CRC check
